@@ -38,13 +38,13 @@ footer, header, hgroup, menu, nav, section {
 	100% { opacity: 1; left:0px }
 }
 
-slide {
+.slideLeft {
 	position: relative;
 	animation: fadeIn  ;
 	animation-duration: 4s;
 }
 
-slide1 {
+.slideLeft1 {
 	position: relative;
 	animation: fadeIn  ;
 	animation-duration: 8s;
