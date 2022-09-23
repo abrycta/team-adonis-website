@@ -38,6 +38,9 @@ footer, header, hgroup, menu, nav, section {
 	100% { opacity: 1; left:0px }
 }
 
+.marginContent {
+	margin: 50px 200px 50px;
+}
 .slideLeft {
 	position: relative;
 	animation: fadeIn  ;
@@ -50,10 +53,25 @@ footer, header, hgroup, menu, nav, section {
 	animation-duration: 8s;
 }
 
+.slideLeft2 {
+	position: relative;
+	animation: fadeIn  ;
+	animation-duration: 12s;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
 }
+	img.content{
+		max-width: 500px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+	}
+
+
 
 body {
 	line-height: 1;
@@ -2160,6 +2178,13 @@ input, select, textarea {
 		button.fit,
 		.button.fit {
 			width: 100%;
+		}
+
+		button.desktop,
+		.button.center{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		input[type="submit"].small,

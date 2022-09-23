@@ -32,6 +32,46 @@ body {
 	line-height: 1;
 }
 
+.marginContent {
+	margin: 5px 20px 5px;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; left:100px}
+	100% { opacity: 1; left:0px }
+}
+
+.slideLeft {
+	position: relative;
+	animation: fadeIn  ;
+	animation-duration: 4s;
+}
+
+.slideLeft1 {
+	position: relative;
+	animation: fadeIn  ;
+	animation-duration: 8s;
+}
+
+.slideLeft2 {
+	position: relative;
+	animation: fadeIn  ;
+	animation-duration: 12s;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+	img.content {
+		max-width: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+	}
+
 ol, ul {
 	list-style: none;
 }
@@ -1875,6 +1915,11 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
+		}
+		.button.center{
+			display: block;
+			margin-left: 0;
+			margin-right: 0;
 		}
 
 		input[type="submit"].icon:before,
