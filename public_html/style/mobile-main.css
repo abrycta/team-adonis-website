@@ -13,7 +13,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 105%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -81,7 +81,7 @@ body {
 
 	body, input, select, textarea {
 		font-family: 'Inter', sans-serif;
-		font-size: 17pt;
+		font-size: 26pt !important;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -91,7 +91,7 @@ body {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -168,7 +168,13 @@ body {
 	h6 {
 		font-size: 0.7em;
 	}
+@media screen and (max-width: 736px) {
 
+	h1 {
+		font-size: 2em;
+	}
+
+}
 
 	.align-left {
 		text-align: left;
