@@ -10,7 +10,6 @@ section.special header.major h2:after, article.special header.major h2:after {
 }
 
 
-
 img {
 	max-width: 100%;
 	height: auto;
@@ -305,7 +304,8 @@ img {
 /* Animation */
 	@keyframes fadeIn {
 		0% { opacity: 0; left:200px}
-		100% { opacity: 1; left:0px }
+		100% { opacity: 1; left:0
+		}
 	}
 
 	.slideLeft {
