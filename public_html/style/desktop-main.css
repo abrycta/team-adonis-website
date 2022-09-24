@@ -4,30 +4,6 @@
 	height: 300px;
 }
 
-main header.major h2:after {
-	background-color: #dddddd !important;
-	background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0) !important;
-	background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0) !important;
-	background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0) !important;
-	background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0) !important;
-}
-header.major {
-	margin-bottom: 3em;
-}
-
-header.major h2 {
-	font-size: 2em;
-}
-
-header.major h2:after {
-	display: block;
-	content: '';
-	width: 3.25em;
-	height: 2px;
-	margin: 0.7em 0 1em 0;
-	border-radius: 2px;
-}
-
 section.special header.major h2:after, article.special header.major h2:after {
 	margin-left: auto;
 	margin-right: auto;
