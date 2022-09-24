@@ -3775,3 +3775,20 @@ input, select, textarea {
 			}
 
 		}
+/* Animation */
+	@keyframes fadeIn {
+		0% { opacity: 0; left:100px}
+		100% { opacity: 1; left:0px }
+	}
+
+	.slideLeft {
+		position: relative;
+		animation: fadeIn  ;
+		animation-duration: 4s;
+	}
+
+	.slideLeft1 {
+		position: relative;
+		animation: fadeIn  ;
+		animation-duration: 6s;
+	}
