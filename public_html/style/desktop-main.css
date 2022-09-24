@@ -8,20 +8,13 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-	img.content{
+	img article{
 		max-width: 500px;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		height: auto;
 	}
-
-
-
-ol, ul {
-	list-style: none;
-}
-
 
 
 	html {
@@ -32,9 +25,7 @@ ol, ul {
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #ffffff;
-	}
+
 
 /* Type */
 
@@ -42,10 +33,6 @@ ol, ul {
 		font-size: 18pt;
 	}
 
-	body {
-		background-color: #ffffff;
-		color: #000000;
-	}
 
 	body, input, select, textarea {
 		font-family: 'Inter', sans-serif;
@@ -255,7 +242,7 @@ ol, ul {
 		overflow-x: hidden;
 	}
 
-		.banner .content {
+		.banner article {
 			padding: 7rem 7rem 5rem 7rem ;
 			align-self: center;
 			flex-grow: 1;
